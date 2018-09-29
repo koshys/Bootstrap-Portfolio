@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Basic Portfolio </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">        
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css"/>
     </head>    
     <body>
 <!-- Start Nav -->    
@@ -35,34 +35,47 @@
         </div>
     </div>        
 <!-- End Nav --> 
-        <div class="content">
-            <div class="main-content">
-                <header class = "header">
-                        Contact
-                </header> 
-                <section class="main-section">
-                    <div class="form-container">  
-                        <form id="form-contact" action="" method="post">
-                            <div class="contact-label">Name</div><br>
-                            <input class = "contact-input" placeholder="Name" type="text" tabindex="1" required autofocus>
-
-                            <div class="contact-label">Email</div><br>                            
-                            <input class="contact-input" placeholder="Email" type="email" tabindex="2" required>
-
-                            <div class="contact-label">Message</div><br>
-                            <textarea id="contact-message" placeholder="Message" type="text" tabindex="3" required></textarea>
-
-                            <button id="contact-submit" name="Submit" type="submit" data-submit="...Sending, Thank you!">Submit</button>
-                        </form>
-                    </div>
-                </section>
+<!-- Portfolio Content -->        
+<div class="content">
+    <div class="container bg-white">
+        <div class="row">
+            <div class= "col">
+                <span class="h3 text-info">Contact</span>
             </div>
         </div>
-        <footer class="footer footer-custom">
-                <div class="container">
-                    <span class="text-muted">Copyright &copy;</span>
+        <div class="row">
+            <div class="col header-line"></div>
+        </div>
+        <div class="row">
+            <div class="col border border-white p-2"></div>
+        </div> 
+        <form>
+            <div class="form">
+                <div class="form-row">
+                        <label for="validationDefault01">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Your Name" value="" required>
                 </div>
-            </footer>
+                <div class="form-row"><br></div>
+                <div class="form-row">
+                        <label for="validationDefault01">Email</label>
+                        <input type="email" class="form-control" id="validationDefault01" placeholder="name@domain.com" value="" required>
+                </div>                
+                <div class="form-row"><br></div>
+                <div class="form-row">
+                        <label for="validationDefault01">Message</label>
+                        <textarea rows="8" type="text" class="form-control" id="validationDefault01" placeholder="your message" value="" required></textarea>
+                <div class="form-row"><br></div>                        
+                <button id="contact-submit" name="Submit" type="submit" data-submit="...Sending, Thank you!">Submit</button>                
+                </div>                                                  
+            </div>
+        </form>
+    </div>
+</div>
+<footer class="footer footer-custom">
+        <div class="container">
+            <span class="text-muted">Copyright &copy;</span>
+        </div>
+    </footer>
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 

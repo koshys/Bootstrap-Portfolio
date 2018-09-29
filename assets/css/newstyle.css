@@ -32,12 +32,9 @@
 .note {
     position : absolute;
     bottom : 10px;
-    color : #ffffff;
-    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size : 14pt;
     text-align: center;
     width : 300px;
-    background-color: #4aaaa5;
     padding : 10px 0px 10px 0px;
 }
 
@@ -49,4 +46,16 @@
     border-top-color : #4aaaa5;
     border-width: 10px 0px 0px 0px;
     border-style: solid;
+}
+
+#contact-submit {
+    background-color: #17a2b8;
+    color: white;    
+    font-size: 16px;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
