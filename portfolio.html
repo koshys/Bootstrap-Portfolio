@@ -2,16 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Basic Portfolio </title>
+        <title>Bootstrap Portfolio </title>
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">        
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css"/>
     </head>    
     <body>
 <!-- Start Nav -->    
-<div class="container border border-primary">
-        <div class="row border border-primary">
-            <div class="col border border-primary">
+<div class="container ">
+        <div class="row ">
+            <div class="col ">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white ">
                     <span class="navbar-brand bg-info text-white p-3">Samson Koshy</span>                                
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -36,63 +36,70 @@
         </div>
     </div>        
 <!-- End Nav --> 
-        <div class="content">
-            <div class="main-content">
-                <header class = "header">
-                        Portfolio
-                </header> 
-                <section class="main-section">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic1" class="portfolio-pic" src="assets/images/flute.jpeg" alt="Bansuri">
-                                    <div class="note">Bansuri</div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic2"  class="portfolio-pic" src="assets/images/books.jpeg" alt="Reading">
-                                    <div class="note">Reading</div>
-                                </div>    
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic3"  class="portfolio-pic" src="assets/images/health.jpeg" alt="Healthy Living">
-                                    <div class="note">Healthy Living</div>
-                                </div>    
-                            </td>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic4"  class="portfolio-pic" src="assets/images/algo.jpeg" alt="Algorithms">
-                                    <div class="note">Algorithms</div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic5"  class="portfolio-pic" src="assets/images/cm.jpeg" alt="Classical Music">
-                                    <div class="note">Classical Music</div>
-                                </div>    
-                            </td>
-                            <td>
-                                <div class="portfolio-band">
-                                    <img id="portfolio-pic6"  class="portfolio-pic" src="assets/images/rnr.jpeg" alt="Rock N' Roll">
-                                    <div class="note">Rock N' Roll</div>
-                                </div>    
-                            </td>
-                        </tr>
-                    </tbody>                                
-                </table>                
-
-                </section>
+<!-- Portfolio Content -->        
+<div class="content">
+    <div class="container bg-white">
+        <div class="row">
+            <div class= "col">
+                <span class="h3 text-info">Portfolio</span>
             </div>
         </div>
-        <footer class = "footer">Copyright &copy; </footer>
+        <div class="row">
+            <div class="col header-line"></div>
+        </div>
+        <div class="row">
+            <div class="col border border-white p-2"></div>
+        </div> 
+        <div class="row">
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic1" class="portfolio-pic" src="assets/images/flute.jpeg" alt="Bansuri">
+                            <div class="note">Bansuri</div>
+                        </div>
+            </div>
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic2"  class="portfolio-pic" src="assets/images/books.jpeg" alt="Reading">
+                            <div class="note">Reading</div>
+                        </div>    
+                </div>            
+        </div>
+        <div class="row">
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic3" class="portfolio-pic" src="assets/images/health.jpeg" alt="Healthy Living">
+                            <div class="note">Bansuri</div>
+                        </div>
+            </div>
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic4"  class="portfolio-pic" src="assets/images/algo.jpeg" alt="Algorithm">
+                            <div class="note">Reading</div>
+                        </div>    
+                </div>            
+        </div>
+        <div class="row">
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic5" class="portfolio-pic" src="assets/images/cm.jpeg" alt="Clasical Music">
+                            <div class="note">Bansuri</div>
+                        </div>
+            </div>
+            <div class= "col ">
+                    <div class="portfolio-band">
+                            <img id="portfolio-pic6"  class="portfolio-pic" src="assets/images/rnr.jpeg" alt="Rock N' Roll">
+                            <div class="note">Reading</div>
+                        </div>    
+                </div>            
+        </div>                       
+    </div>
+</div>    
+<!-- End Portfolio Content -->        
+<footer class="footer footer-custom">
+                <div class="container">
+                    <span class="text-muted">Copyright &copy;</span>
+                </div>
+            </footer>
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
