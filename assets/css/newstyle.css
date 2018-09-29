@@ -1,0 +1,36 @@
+.content {
+    background-image: url('../images/gravel.png');
+    padding-top : 20px;
+    padding-bottom : 20px;
+}
+
+.header-line {
+    border-bottom-color: #777777;
+    padding-bottom: 5px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;   
+}
+
+.main-section-para { 
+    color: #777777;
+}
+
+.para-link {
+    text-decoration : none;
+    color : #777777;    
+}
+
+.portfolio-pic {
+    width :300px;
+    height: 300px;
+}
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    color: #777777;
+    padding-top : 25px;
+    border-top-color : #4aaaa5;
+    border-width: 10px 0px 0px 0px;
+    border-style: solid;
+}
